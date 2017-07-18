@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         //Obtengo la referencia a los controles
-        btnObtenerFrase = (Button) findViewById(R.id.btn_obtener_frase;
+        btnObtenerFrase = (Button) findViewById(R.id.btn_obtener_frase);
         tvFrase = (EditText) findViewById(R.id.tv_frase);
 
         cargarFrases();
